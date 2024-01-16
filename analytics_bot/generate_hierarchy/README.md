@@ -12,9 +12,9 @@ to the tables the user wants to be using..
 
 an example output of the function is shown below, 
 
-Input: 
+**Input:**
 config.yaml
->>DB:
+DB:
   BikeStore:
     uri: "my actual uri that the llm will use for creating connections."
     schemas:
@@ -31,7 +31,7 @@ config.yaml
         - stores
 
 generate_hierarchy('./config.yaml')
->>
+**output:**
 - "my actual uri that the llm will use for creating connections."
    - production
       - brands
