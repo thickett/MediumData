@@ -13,7 +13,7 @@ to the tables the user wants to be using..
 an example output of the function is shown below, 
 
 **Input:**
-config.yaml
+   config.yaml
    DB:
      BikeStore:
        uri: "my actual uri that the llm will use for creating connections."
