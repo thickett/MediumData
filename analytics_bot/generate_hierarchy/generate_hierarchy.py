@@ -1,6 +1,6 @@
 class get_credentials:
     def __init__(self):
-        with open("./config.yaml", "r") as file:
+        with open("./example_config.yaml", "r") as file:
             credentials = yaml.safe_load(file)
         self.credentials = credentials
 
