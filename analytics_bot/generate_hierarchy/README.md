@@ -10,26 +10,7 @@ defined keys, and highly logical column names.)
 how to effectivly query complex databases. consider methods for dynamically populating your prompts with examples that are specific
 to the tables the user wants to be using.. 
 
-an example output of the function is shown below, 
-
-**Input:**
-
-   config.yaml
-   DB:
-     BikeStore:
-       uri: "my actual uri that the llm will use for creating connections."
-       schemas:
-         production:
-           - brands
-           - categories
-           - products
-           - stocks
-         sales:
-           - customers
-           - order_items
-           - orders
-           - staffs
-           - stores
+an example output of the function is shown below.
 
 generate_hierarchy('./config.yaml')
 **output:**
