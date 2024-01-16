@@ -13,6 +13,7 @@ to the tables the user wants to be using..
 an example output of the function is shown below, 
 
 **Input:**
+
    config.yaml
    DB:
      BikeStore:
