@@ -52,7 +52,7 @@ class AnalysisAgent:
         self.Initial_chat_template = self.get_initial_prompt()
 
     def get_initial_prompt(self):
-        with open(config.content_prompt_directory, "r", encoding="utf-8") as f:
+        with open(r'./required_fields/prompt.txt', "r", encoding="utf-8") as f:
             content_prompt_raw = f.read()
             content_prompt = content_prompt_raw.format(hierarchy=self.hierarchy)
             Initial_chat_template = ChatPromptTemplate.from_messages(
