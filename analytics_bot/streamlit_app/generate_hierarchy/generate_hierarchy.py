@@ -5,5 +5,5 @@ from helper_functions.get_credentials import get_credentials
 db_connector = DBConnector()
 hierarchy = db_connector.get_schema_hierarchy()
 
-with open("../required_files/hierarchy.txt", "w") as f:
+with open("../required_fields/hierarchy.txt", "w") as f:
     f.write(hierarchy)
