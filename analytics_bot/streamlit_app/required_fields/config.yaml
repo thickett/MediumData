@@ -1,0 +1,21 @@
+openAI:
+  api_key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DB:
+  DB_name:
+    uri: "postgresql://{username}:{password}@{host}:{port}/{database}"
+    schemas:
+      schema_name:
+        - table_name
+        - table_name
+      schema_name:
+        - table_name
+        - table_name
+  DB_name2:
+    uri: "postgresql://{username}:{password}@{host}:{port}/{database}"
+    schemas:
+      schema_name:
+        - table_name
+        - table_name
+      schema_name:
+        - table_name
+        - table_name
